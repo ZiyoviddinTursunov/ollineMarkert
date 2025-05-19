@@ -1,0 +1,16 @@
+.catigoris .container h1{
+    margin-top: 50px;
+}
+
+.catigoris_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    gap: 30px;
+}
+.catigoris_cards a{
+    text-decoration: none;
+    color: black;
+}

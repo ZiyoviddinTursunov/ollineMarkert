@@ -1,0 +1,153 @@
+
+
+
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(78, 76, 76, 0.093);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .modalImage {
+    flex: 1;
+    position: relative;
+  margin-top: 15px;
+}
+.Close{
+      font-size: 25px;
+    cursor: pointer;
+     margin-left: 280px;
+  }
+  .modalImage img {
+      text-align: center;
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+  }
+  
+  .modalImage button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modalTitle {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .modalTitle h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .modalTitle h3 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .colors {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .colors span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  .colors span.active{
+    box-shadow: 0px 0px 5px 3px gray;
+  }
+  .sizes {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sizes span {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .sizes span.active{
+    box-shadow: 0px 0px 5px 3px gray;
+
+  }
+  .sizes span:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .count button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .count span {
+    min-width: 30px;
+    text-align: center;
+  }
+  
+  .modalTitle > button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .modalTitle > button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Narxlar uchun stil */
+  .modalTitle h3 span {
+    color: #e53935;
+    font-weight: bold;
+  }
+  
+  .modalTitle h3 del {
+    color: #757575;
+    margin-left: 10px;
+  }
+

@@ -1,0 +1,193 @@
+.chackOut {
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .breadcrumb {
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #000;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: purple;
+  }
+  
+  .breadcrumb i {
+    color: gray;
+  }
+  
+  .breadcrumb b {
+    color: black;
+  }
+  
+  .checkout_wrapper {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .billing_details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .billing_details h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  
+  .billing_details form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form_group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form_group label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form_group input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .save_info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  
+  .order_summary {
+    margin-top: 35px;
+    flex: 1;
+    min-width: 300px;
+    padding: 25px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .product img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .product_name {
+    flex: 1;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  
+  .product_price {
+    font-weight: 500;
+  }
+  
+  .summary {
+   font-size: 15px;
+    margin: 15px 0;
+    padding: 10px 0;
+    line-height: 2.5;
+  }
+  
+  .summary div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .shopin01{
+    padding: 10px 0;
+    border-top: 2px solid rgba(63, 62, 62, 0.507);
+    border-bottom: 2px solid rgba(63, 62, 62, 0.507);
+  }
+  .total {
+    font-weight: bold;
+  }
+  
+  .payment_methods {
+    margin-top: 20px;
+  }
+  
+  .payment_option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 15px 0;
+    font-size: 14px;
+  }
+  .payment_option1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .payment_icons {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .coupon {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .coupon input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .coupon button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .place_order {
+    margin-top: 20px;
+    width: 30%;
+    padding: 14px;
+    background: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  

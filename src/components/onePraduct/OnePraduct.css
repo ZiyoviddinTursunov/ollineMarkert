@@ -1,0 +1,269 @@
+.onerPraduct_text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 0;
+}
+.onerPraduct_text p {
+  width: 2px;
+  height: 13px;
+  background-color: rgb(87, 89, 89);
+  transform: rotate(25deg);
+}
+.onePraduc_cards {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.onePraduc_imgs4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.onePraduc_imgs4 img {
+  width: 120px;
+  height: 110px;
+}
+
+.onePtaduc_imgs {
+  width: 450px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onePtaduc_imgs img {
+  width: 300px;
+  height: 300px;
+}
+
+.onePraduct_card {
+  width: 500px;
+}
+.stars001 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.one_stars {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+}
+.stars01 {
+  font-size: 20px;
+  color: gold;
+}
+.prices_praduce{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.oneText {
+  padding: 15px 0;
+  font-size: 17px;
+}
+.border_B {
+  border: 1px solid rgba(0, 0, 0, 0.33);
+  width: 500px;
+}
+.one_colors {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+}
+.one_colors p {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.one_colors p.active{
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px 3px black;
+
+}
+
+.oneSize {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  gap: 15px;
+}
+.oneSize span {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.oneSize span:hover {
+  background-color: #db4444;
+  color: white;
+  border: 1px solid #db4444;
+}
+.oneSize span.active{
+  box-shadow: 0px 0px 10px 3px black;
+
+}
+.one_buy {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pilus_minus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  border: 2px solid black;
+}
+.pilus_minus span {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.pilus_minus span:nth-child(1) {
+  border-right: 2px solid black;
+}
+
+.pilus_minus span:nth-of-type(2) {
+  border-left: 2px solid black;
+}
+
+.pilus_minus span:hover {
+  background: #db4444;
+  color: white;
+}
+
+.pilus_minus span:nth-child(1):hover {
+  border-right: 2px solid red;
+}
+
+.one_buy button {
+  padding: 5px 15px;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.one_buy button:hover {
+  background: #db4444;
+  color: white;
+  border: 2px solid #db4444;
+  border-radius: 5px;
+}
+
+.one_heart {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.one_hear01 {
+  font-size: 20px;
+}
+.one_heart:hover {
+  background-color: #db4444;
+  color: white;
+  border: 1px solid #db4444;
+}
+.oneFree{
+    border: 2px solid rgba(0, 0, 0, 0.419);
+    width: 350px;
+    margin: 20px 0;
+    padding: 15px ;
+    border-radius: 10px;
+}
+.one_cart01{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.delivery{
+    font-size: 40px;
+}
+
+.oneBlock{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.oneBlock a{
+  text-decoration: none;
+  color: black;
+}
+.one_block01{
+  padding: 100px 0;
+}
+.one_block01 .oneBox p{
+  width: 15px;
+  height: 25px;
+  background-color: #db4444;
+  border-radius: 5px;
+}
+.oneBox{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+ 
+}
+.custom-swiper {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.custom-swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.custom-swiper .swiper-slide:hover {
+  transform: scale(1.05);
+}
+
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  color: #333;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 40%;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.custom-swiper .swiper-button-next:hover,
+.custom-swiper .swiper-button-prev:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.custom-swiper .swiper-button-next::after,
+.custom-swiper .swiper-button-prev::after {
+  font-size: 16px;
+}

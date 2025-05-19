@@ -1,0 +1,104 @@
+
+.aboutP{
+    padding: 50px 0;
+    display: flex;align-items: center;
+    gap: 15px;
+}
+.about_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_text{
+    width: 450px;
+ 
+    
+}
+.about_text h1{
+    font-size: 45px;
+}
+.about_text p{
+    padding: 15px 0;
+}
+.about_card{
+    width: 550px;
+}
+
+.about_card img{
+    width: 100%;
+}
+
+.block_about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.block_box{
+    width: 270px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.block_box:hover{
+    background: #DB4444;
+    border: 2px solid #DB4444;
+    transform: translateY(-15px);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.519);
+    z-index: 10;
+    color: white;
+}
+.image_box{
+    width: 65px ;
+    height: 65px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: all .3s ease-in-out;
+    
+}
+.block_box:hover .image_box{
+    background: white;
+   
+}
+   .block_box .image_box img{
+    filter: brightness(0) invert(1);
+   }
+.block_box:hover .image_box img{
+    filter: brightness(0) ;
+}
+.block_box h1{
+    padding: 7px 0;
+}
+
+.funder_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 30px;
+}
+.funder_card{
+    line-height: 1.5;
+}
+
+.fragma_icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fragma_icons01{
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+.fragma_icons01:hover{
+    color: #DB4444;
+}

@@ -1,0 +1,94 @@
+
+
+
+
+.card{
+    width: 270px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    background: transparent; 
+}
+.card:hover .cardAdd{
+    margin-top: -0px;
+}
+.card .imgs{
+    background-color: rgba(197, 197, 197, 0.433);
+    height: 230px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    border-radius: 8px;
+}
+
+.card .imgs img{
+    width: 170px;
+    height: 150px;
+    margin-top: 40px;
+    object-fit: contain;
+}
+
+.chegirma{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px 20px;
+    position: absolute;
+    width: 100%;
+}
+.chegirma span{
+    padding: 3px 10px;
+    background-color: red;
+    color: white;
+}
+.card_icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.card_icons1{
+    font-size: 25px;
+}
+.card_icons02{
+    font-size: 25px;
+    color: red;
+}
+.cardAdd{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 8px;
+    margin-top: 38px;
+    transition: all .3s ease-in-out;
+
+}
+
+.card_title{
+    padding-top: 15px;
+    line-height: 1.9;
+}
+
+.price_card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #DB4444;
+}
+.price_card p {
+    color: #383737;
+    text-decoration: line-through;
+}
+
+
+.card_stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card-star-icon{
+    color: gold;
+    font-size: 24px;
+}

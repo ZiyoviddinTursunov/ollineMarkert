@@ -1,0 +1,14 @@
+
+
+.free_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .free_card{
+    width: 270px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 70px 0;
+  }
