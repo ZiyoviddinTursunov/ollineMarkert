@@ -54,7 +54,7 @@ navigate("/logns")
       <div className="singUp">
         <div className="container">
             <div className="imgs_login">
-                <img src="/public/imgs/Side Image.png" alt="" />
+                <img src="/imgs/Side Image.png" alt="" />
             </div>
             <div className="login_registratsiya">
 
