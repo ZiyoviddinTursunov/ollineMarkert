@@ -44,7 +44,7 @@ function Login({ getUser }) {
       <div className="logins">
         <div className="container">
           <div className="imgs_logins">
-            <img src="/public/imgs/Side Image.png" alt="" />
+            <img src="/imgs/Side Image.png" alt="" />
           </div>
 
           <div className="login">
