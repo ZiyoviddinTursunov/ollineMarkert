@@ -266,7 +266,7 @@ function Home({ data, setModalInfo, setLikeCount,getData,getLike }) {
             </div>
 
             <div className="best_imgs">
-              <img src="/imgs/Frame 600.png" alt="" />
+              <img src="/imgs/Frame600.png" alt="" />
             </div>
           </div>
         </section>
@@ -308,7 +308,7 @@ function Home({ data, setModalInfo, setLikeCount,getData,getLike }) {
               <h1>New Arrival</h1>
             </div>
             <div className="imgs_aririal">
-              <img src="/imgs/Frame 739.png" alt="" />
+              <img src="/imgs/Frame739.png" alt="" />
             </div>
             <FreeAdd />
           </div>

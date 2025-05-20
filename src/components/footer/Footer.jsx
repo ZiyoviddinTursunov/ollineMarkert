@@ -33,8 +33,8 @@ function Footer() {
           </div>
           <div className="footer_card">
      <h2>Download App</h2>
-     <img src="/public/imgs/Frame 720.png" alt="" />
-     <img src="/public/imgs/Frame 741.png" alt="" />
+     <img src="/public/imgs/Frame720.png" alt="" />
+     <img src="/public/imgs/Frame741.png" alt="" />
           </div>
         </div>
         <p className='cops'>Copyright Rimel 2022. All right reserved</p>
